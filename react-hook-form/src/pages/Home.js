@@ -26,7 +26,7 @@ const Home = () => {
     const history = useHistory()
     const handleComplete = event => {
         if(Number(event) === PIN_DEFAULT){
-            history.push(`/welcome`)
+            history.push("/daftar")
         }
         else setValid(true)
     }

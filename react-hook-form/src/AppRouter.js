@@ -8,6 +8,7 @@ import {
 import Home from "./pages/Home"
 import Welcome from "./pages/Welcome"
 import FormulirPendaftaran from "./pages/FormulirPendaftaran"
+import Playground from "./pages/Playground"
 
 const AppRouter = () => {
     return(
@@ -15,6 +16,7 @@ const AppRouter = () => {
             <Switch>
                 <Route path='/welcome' component={Welcome}></Route>
                 <Route path='/daftar' component={FormulirPendaftaran}></Route>
+                <Route path='/playground' component={Playground}></Route>
                 <Route path='/' component={Home}></Route>
             </Switch>
         </Router>
